@@ -1,0 +1,317 @@
+body {
+  margin: 0 1em;
+  font-family: sans-serif;
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.company {
+  font-family: serif;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.nav-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+}
+
+.link, .user-nav {
+  margin: 0 4em;
+}
+
+.user-nav {
+  text-transform: uppercase;
+  margin-right: 100px;
+}
+
+.button-1 {
+  border-radius: 35px;
+  margin-bottom: 10px;
+  padding: 15px;
+  color: white;
+  background: rgb(0, 0, 0);
+  border: none;
+}
+
+.button-2 {
+  color: white;
+  background: black;
+  padding: 10px;
+  padding-right: 12px;
+  padding-left: 12px;
+  border: none;
+}
+
+.hero {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(185, 185, 185);
+}
+
+.hero h1 {
+  font-size: 50px;
+  padding-bottom: 25px;
+}
+
+.hero p{
+  padding-bottom: 25px;
+
+}
+
+.button {
+  border-radius: 35px;
+  margin-bottom: 80px;
+  padding: 15px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.hero button{
+  color: white;
+  background: rgb(255, 36, 157)
+}
+
+.book-library {
+  display: flex;
+  align-content: center;
+  list-style: none;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(38, 152, 228);
+}
+
+.book-library h6 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.book-library h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.marathon {
+  text-align: center;
+  height: 100vh;
+  padding-top: 110px;
+  background: rgb(84, 219, 163);
+}
+
+.marathon header {
+  margin-top: 100px;
+  padding-bottom: 50 px;
+}
+
+.marathon h1 {
+  font-size: 45px;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+.marathon p {
+  width: 20vw;
+  line-height: 2.14;
+  text-align: left;
+}
+
+
+.middle-aligner {
+  height: 70vh;
+  Width: 100vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.marathon .flexible-middles {
+  height: 85vh;
+  width: 60vw;
+  display: flex;
+  align-content: center;
+  list-style: none;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  flex-direction: row-reverse
+}
+
+.paragraphs {
+  height: 40vh;
+  width: 25vw;
+}
+
+.marathon .pictures {
+  height: 30vh;
+  width: 25vw;
+  background: purple;
+}
+
+.button-4 {
+  color: white;
+  background: rgb(4, 136, 123);
+}
+
+.spaceship {
+  text-align: center;
+  height: 100vh;
+  padding-top: 110px;
+  background: rgb(194, 80, 160);
+}
+
+.spaceship header {
+  margin-top: 100px;
+  padding-bottom: 50 px;
+}
+
+.spaceship h1 {
+  font-size: 45px;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+.spaceship p {
+  width: 20vw;
+  line-height: 2.14;
+  text-align: left;
+}
+
+.spaceship .pictures {
+  height: 30vh;
+  width: 25vw;
+  background: rgb(0, 255, 242);
+}
+
+.spaceship .flexible-middles {
+  height: 85vh;
+  width: 60vw;
+  display: flex;
+  align-content: center;
+  list-style: none;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.spaceship .button-4 {
+  color: white;
+  background: rgb(8, 104, 194);
+}
+
+.city {
+  text-align: center;
+  height: 100vh;
+  padding-top: 110px;
+  background: rgb(157, 196, 114);
+}
+
+.city header {
+  margin-top: 100px;
+  padding-bottom: 50 px;
+}
+
+.city h1 {
+  font-size: 45px;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+.city p {
+  width: 20vw;
+  line-height: 2.14;
+  text-align: left;
+}
+
+.city .pictures {
+  height: 30vh;
+  width: 25vw;
+  background: rgb(45, 133, 52);
+}
+
+.city .flexible-middles {
+  height: 85vh;
+  width: 60vw;
+  display: flex;
+  align-content: center;
+  list-style: none;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.city .button-4 {
+  color: white;
+  background: rgb(2, 129, 13);
+}
+
+.superhero {
+  text-align: center;
+  height: 100vh;
+  padding-top: 110px;
+  background: rgba(206, 89, 252, 0.479);
+}
+
+.superhero header {
+  margin-top: 100px;
+  padding-bottom: 50 px;
+}
+
+.superhero h1 {
+  font-size: 45px;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+.superhero p {
+  width: 20vw;
+  line-height: 2.14;
+  text-align: left;
+}
+
+.superhero .pictures {
+  height: 30vh;
+  width: 25vw;
+  background: rgb(115, 0, 209);
+}
+
+.superhero .flexible-middles {
+  height: 85vh;
+  width: 60vw;
+  display: flex;
+  align-content: center;
+  list-style: none;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.superhero .button-4 {
+  color: rgb(255, 255, 255);
+  background: rgb(115, 0, 209);
+}
